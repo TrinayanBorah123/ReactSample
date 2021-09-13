@@ -1,0 +1,152 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  /*color: #E01A76; */
+}
+h1 {
+    font-family: 'Lora', serif;
+    color: #1AAB8A;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac; 
+}
+label {
+    margin-right: 20px;
+}
+.inputborder1{
+    border-color:aquamarine
+}
+.inputborder2 {
+    border-color: orangered
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+input {
+    font-family: 'Lora', serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.blackiconcolor {
+    color: #66DE93;
+    font-size: 24px;
+}
+.rediconcolor {
+    color: orangered;
+    font-size: 24px;
+}
+
+.textsize {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+.custom-input:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+input[type=text]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+.no-border {
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+
+.button1 {
+    font-family: 'Lora', serif;
+    background: #1AAB8A;
+    color: #fff;
+    border: none;
+    position: relative;
+    /*height: 60px; */
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    letter-spacing: 1.5px;
+}
+
+.button1:hover {
+      background: #fff;
+      color: #1AAB8A;
+}
+
+    .button1:before, .button1:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2px;
+        width: 0;
+        background: #1AAB8A;
+        transition: 400ms ease all;
+    }
+
+    .button1:after {
+        right: inherit;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+    }
+
+    .button1:hover:before, .button1:hover:after {
+        width: 100%;
+        transition: 800ms ease all;
+    }
+
+.button2 {
+    font-family: 'Lora', serif;
+    background: #C8C6C6;
+    color: #000;
+    border: none;
+    position: relative;
+    /* height: 60px; */
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    letter-spacing: 1.5px;
+}
+.resetbutton {
+    transition: 800ms ease all;
+    font-family: 'Lora', serif;
+    background: #39A2DB;
+    color: #fff;
+    border: none;
+    position: relative;
+    /*height: 60px;*/
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1.5px;
+}
+span {
+    font-family: 'Lora', serif;
+}
